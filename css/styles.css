@@ -1,7 +1,23 @@
-/* Formatting for Locations button*/
+/* Formatting for Navbar button*/
 
 .btn {
   color: white;
   border: 0px;
   border-radius: 0rem;
 }
+
+.btn-secondary {
+    background-color: #343a40;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+/* image formatting */
+img{
+  display:flex;
+  justify-content: center;
+}
+
+/* Carousel formatting */
