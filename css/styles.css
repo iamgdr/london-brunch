@@ -21,3 +21,7 @@ img{
 }
 
 /* Carousel formatting */
+
+.carousel-control-next, .carousel-control-prev {
+  color: red;
+}
