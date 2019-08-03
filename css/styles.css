@@ -1,7 +1,7 @@
 /* universal formatting */
 body {
   color: grey;
-  font-family: sans-serif;
+  font-family: arial;
   width: 90%;
   margin: 0 auto;
   background-color: 'ghost white';
@@ -38,11 +38,15 @@ body {
   color: dimgray;
   margin: 0 auto;
   padding: 10px;
+  font-family: candara;
 }
 
 #title {
   padding-top: 50px;
   font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+
 }
 
 /* Carousel formatting */
@@ -60,7 +64,7 @@ body {
   margin: 0 auto;
 }
 
-.carousel {
-    height: 500px;
-    overflow: visible;
+.bd-example {
+  width: 70%;
+  margin: 0 auto;
 }
