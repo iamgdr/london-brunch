@@ -47,7 +47,7 @@ body {
   font-size: 2em;
   text-transform: uppercase;
   text-align: center;
-
+  font-family: fantasy;
 }
 
 /* Carousel formatting */
@@ -68,4 +68,34 @@ body {
 .bd-example {
   width: 30%;
   margin: 0 auto;
+}
+
+.carousel-indicators li {
+  background-color: #000;
+  background-color: rgba(70, 70, 70, 0.1);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 80px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+  background-color: white;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: darkslategray;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: darkslategray;
 }
