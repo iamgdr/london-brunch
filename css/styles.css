@@ -6,6 +6,7 @@ body {
   margin: 0 auto;
   padding: 40px;
   background-color: 'ghost white';
+  font-family: 'Beth Ellen', cursive;
 }
 
 /* Formatting for Navbar button*/
@@ -39,15 +40,12 @@ body {
   color: dimgray;
   margin: 0 auto;
   padding: 10px;
-  font-family: candara;
 }
 
 #title {
   padding-top: 50px;
   font-size: 2em;
-  text-transform: uppercase;
   text-align: center;
-  font-family: fantasy;
 }
 
 /* Carousel formatting */
