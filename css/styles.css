@@ -4,7 +4,9 @@ body {
   font-family: arial;
   width: 90%;
   margin: 0 auto;
+  padding: 40px;
   background-color: 'ghost white';
+  font-family: 'Beth Ellen', cursive;
 }
 
 /* Formatting for Navbar button*/
@@ -24,7 +26,7 @@ body {
 
 /* main image & intro formatting */
 #main {
-  display:flex;
+  display: flex;
   justify-content: center;
   padding: 20px;
   width: 100%;
@@ -38,15 +40,12 @@ body {
   color: dimgray;
   margin: 0 auto;
   padding: 10px;
-  font-family: candara;
 }
 
 #title {
   padding-top: 50px;
   font-size: 2em;
-  text-transform: uppercase;
   text-align: center;
-
 }
 
 /* Carousel formatting */
@@ -65,6 +64,36 @@ body {
 }
 
 .bd-example {
-  width: 70%;
+  width: 30%;
   margin: 0 auto;
+}
+
+.carousel-indicators li {
+  background-color: #000;
+  background-color: rgba(70, 70, 70, 0.1);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 80px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+  background-color: white;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: darkslategray;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: darkslategray;
 }
