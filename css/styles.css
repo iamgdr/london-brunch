@@ -47,12 +47,11 @@ body {
 }
 
 .not-working{
-  background-color: silver;
+  color: silver;
 }
 
-/* main image & intro formatting */
-.h1{
-  font-family: 'Kristi', cursive;  }
+
+  /* Carousel formatting */
 
 .carousel-caption.d-none.d-md-block {
   color: pink;
@@ -68,6 +67,10 @@ body {
 
 
 /* main image & intro formatting */
+
+/* main image & intro formatting */
+.h1{
+  font-family: 'Kristi', cursive;  }
 
 #main {
   display: flex;
@@ -95,5 +98,3 @@ body {
   font-size: 2em;
   text-align: center;
   font-family: 'Kristi', cursive;}
-
-/* Carousel formatting */
