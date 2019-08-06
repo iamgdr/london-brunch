@@ -1,5 +1,14 @@
-/* Formatting for Navbar button*/
+/* universal formatting */
+body {
+  color: grey;
+  font-family: arial;
+  width: 90%;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: 'ghost white';
+}
 
+/* Formatting for Navbar button*/
 .btn {
   color: white;
   border: 0px;
@@ -14,14 +23,79 @@
     color: white;
 }
 
-/* image formatting */
-img{
-  display:flex;
+/* main image & intro formatting */
+#main {
+  display: flex;
   justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: 600px;
+}
+
+#intro {
+  width: 80%;
+  font-size: 20px;
+  text-align: center;
+  color: dimgray;
+  margin: 0 auto;
+  padding: 10px;
+  font-family: candara;
+}
+
+#title {
+  padding-top: 50px;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: fantasy;
 }
 
 /* Carousel formatting */
 
 .carousel-control-next, .carousel-control-prev {
   color: red;
+}
+
+.carousel-caption.d-none.d-md-block {
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.3);
+  width: 30%;
+  margin: 0 auto;
+}
+
+.bd-example {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.carousel-indicators li {
+  background-color: #000;
+  background-color: rgba(70, 70, 70, 0.1);
+}
+
+.carousel-indicators .active {
+  background-color: #444;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 80px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+  background-color: white;
+}
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: darkslategray;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: darkslategray;
 }
