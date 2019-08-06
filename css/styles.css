@@ -38,6 +38,14 @@ body {
   font-size:3em;
 }
 
+.dropdown-item{
+  font-family: 'Kristi', cursive;
+  font-size:2em;
+}
+
+.not-working{
+  background-color: silver;
+}
 
 /* main image & intro formatting */
 .h1{
