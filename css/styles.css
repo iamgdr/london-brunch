@@ -86,50 +86,14 @@ body {
 
 /* Carousel formatting */
 
-.carousel-control-next, .carousel-control-prev {
-  color: red;
-}
-
 .carousel-caption.d-none.d-md-block {
-  color: white;
-  font-size: 60px;
-  text-transform: uppercase;
-  background: rgba(0, 0, 0, 0.3);
-  width: 30%;
-  margin: 0 auto;
+  color: pink;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+
 }
 
-.bd-example {
-  width: 30%;
-  margin: 0 auto;
-}
-
-.carousel-indicators li {
-  background-color: #000;
-  background-color: rgba(70, 70, 70, 0.1);
-}
-
-.carousel-indicators .active {
-  background-color: #444;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 80px;
-  width: 100px;
-  background-size: 100%, 100%;
-  background-image: none;
-  background-color: white;
-}
-
-.carousel-control-next-icon:after {
-  content: '>';
-  font-size: 55px;
-  color: darkslategray;
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: darkslategray;
+.carousel-caption {
+  left: 0;
 }
