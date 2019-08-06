@@ -54,6 +54,18 @@ body {
 .h1{
   font-family: 'Kristi', cursive;  }
 
+.carousel-caption.d-none.d-md-block {
+  color: pink;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+
+}
+
+.carousel-caption {
+  left: 0;
+}
+
 
 /* main image & intro formatting */
 
@@ -85,15 +97,3 @@ body {
   font-family: 'Kristi', cursive;}
 
 /* Carousel formatting */
-
-.carousel-caption.d-none.d-md-block {
-  color: pink;
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  text-align: center;
-
-}
-
-.carousel-caption {
-  left: 0;
-}
