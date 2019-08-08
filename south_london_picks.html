@@ -77,61 +77,72 @@
           </div>
         </div>
 
-      </section>
-      <br>
-      <br>
-      <section>
-        <!-- columns -->
-        <div class="row">
-          <div class="col-sm">
-            <img src="images/South_London_brunch_images/blues_kitchen.jpg" alt=blueskitchen width=200px>
-            <p>Blues Kitchen - Brixton <br>
-              Details: Bottomless booze? Y/N<br>Set Menu? Y/N<br>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm<br>Address: xxxxx</p>
-            </div>
 
-            <div class="col-sm">
-              <img src="images/South_London_brunch_images/maloko.jpg" alt= Maloko width=200px>
-              <p>Maloko - Camberwell <br>
-                Details: Bottomless booze? Y/N<br>Set Menu? Y/N<br>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm<br>Address: xxxxx
-              </p>
-            </div>
+<!-- restuarants -->
+<div class="row">
+  <div class="card col-sm text-center" style="width: 18rem;">
+    <img src="images/South_London_brunch_images/blues_kitchen.jpg" class="card-img-top" alt="Blues Kitchen">
+    <div class="card-body-south_london">
+      <h3 class="card-text"><a href="https://theblueskitchen.com/brixton/" target="_blank">Blues Kitchen - Brixton</a></h3>
+      <p>Details: Bottomless booze? Y/N</p>
+      <p>Set Menu? Y/N</p>
+      <p>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm</p>  <p>Address: 40 Acre Ln, Brixton, London SW2 5SP</p>
+    </div>
+  </div>
+  <div class="card col-sm text-center" style="width: 18rem;">
+    <img src="images/South_London_brunch_images/maloko.jpg" class="card-img-top" alt="Maloko">
+    <div class="card-body-south_london">
+      <h3 class="card-text"><a href="https://www.southlondonclub.co.uk/discount/camberwell/cafes/maloko" target="_blank">Maloko - Camberwell</a></h3>
+      <p>Details: Bottomless booze? Y/N</p>
+      <p>Set Menu? Y/N</p>
+      <p>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm</p>
+      <p>Address: 60 Camberwell Church St, Camberwell, London SE5 8TU</p>
+    </div>
+  </div>
+  <div class="card col-sm text-center" style="width: 18rem;">
+    <img src="images/South_London_brunch_images/coal_rooms.jpg" class="card-img-top" alt="Coal Coal_Rooms">
+    <div class="card-body-south_london">
+      <h3 class="card-text"><a href="https://www.coalroomspeckham.com/" target="_blank">Coal Rooms - Peckham</a></h3>
+      <p>Details: Bottomless booze? Y/N</p>
+      <p>Set Menu? Y/N</p>
+      <p>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm</p>
+      <p>Address: 11a Station Way, London SE15 4RX</p>
+    </div>
+  </div>
+</div>
 
-            <div class="col-sm">
-              <img src="images/South_London_brunch_images/coal_rooms.jpg" alt=Coal_Rooms width=200px>
-              <p>Coal Rooms - Peckham <br>
-                Details: Bottomless booze? Y/N<br>Set Menu? Y/N<br>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm<br>Address: xxxxx</p>
-              </div>
+<div class="container">
+  <h2>Send us your recommendation!</h2>
+  <form>
+    <div class="form-group">
+      <label for="exampleFormControlInput2">Your name</label>
+      <input type="email" class="form-control" id="exampleFormControlInput2">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Your email</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="form-group
+    <label for="exampleFormControlSelect1">Your area</label>
+    <select class=form-control" id="exampleFormControlSelect1">
+      <option>South London</option>
+      <option>East London</option>
+      <option>North London</option>
+      <option>Central London</option>
+      <option>West London</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="FreeText">Your recommendation</label>
+    <textarea class="form-control" id="FreeText" rows="4"></textarea>
+  </div>
+  <button type="Submit" class="btn btn-primary">Submit</button>
+</form>
 
-              <br>
-              <br>
-              <div class="container">
-                <h2>Send us your recommendation!</h2>
-                <form>
-                  <div class="form-group">
-                    <label for="exampleFormControlInput2">Your name</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput2">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">Your email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  </div>
-                  <div class="form-group
-                  <label for="exampleFormControlSelect1">Your area</label>
-                  <select class=form-control" id="exampleFormControlSelect1">
-                    <option>South London</option>
-                    <option>East London</option>
-                    <option>North London</option>
-                    <option>Central London</option>
-                    <option>West London</option>
-                  </select>
-                </div>
-                <div class="form-group">
-                  <label for="FreeText">Your recommendation</label>
-                  <textarea class="form-control" id="FreeText" rows="4"></textarea>
-                </div>
-                <button type="Submit" class="btn btn-primary">Submit</button>
-              </form>
+<!-- Javascript code -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-
-            </body>
-            </html>
+</body>
+</html>
