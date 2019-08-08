@@ -50,6 +50,43 @@ body {
   color: silver;
 }
 
+/* social buttons */
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  /* border: solid white 1px; */
+}
+
+.fa:hover {
+  color: white;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: none;
+  color: #3B5998;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: none;
+  color: #55ACEE;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: none;
+  color: #D6134E;
+}
+/* Linkedin */
+.fa-linkedin {
+  background: none;
+  color: white;
+}
 
   /* Carousel formatting */
 
