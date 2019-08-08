@@ -134,9 +134,11 @@ body {
 
   font-family: 'Amatic SC', cursive;
   font-weight:bold;
+}
 
 #title {
   padding-top: 50px;
   font-size: 2em;
   text-align: center;
-  font-family: 'Kristi', cursive;}
+  font-family: 'Kristi', cursive;
+}
