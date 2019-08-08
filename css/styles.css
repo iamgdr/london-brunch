@@ -8,7 +8,10 @@ body {
   font-family: 'Amatic SC', cursive;
 }
 
-/* Formatting for Navbar button*/
+/* main page
+********************/
+
+/* Navbar button*/
 .btn {
   color: white;
   border: 0px;
@@ -60,31 +63,27 @@ body {
   color: white;
 }
 
-/* Facebook */
 .fa-facebook {
   background: none;
   color: #3B5998;
 }
 
-/* Twitter */
 .fa-twitter {
   background: none;
   color: #55ACEE;
 }
 
-/* Instagram */
 .fa-instagram {
   background: none;
   color: #D6134E;
 }
-/* Linkedin */
+
 .fa-linkedin {
   background: none;
   color: white;
 }
 
 /* Carousel formatting */
-
 .carousel-caption.d-none.d-md-block {
   color: pink;
   font-size: 35px;
@@ -103,7 +102,7 @@ body {
   border-color: white
 }
 
-/* main image & intro formatting */
+/* main page & intro formatting */
 .h1 {
   font-family: 'Kristi', cursive;
 }
@@ -119,20 +118,29 @@ body {
 
 #intro {
   width: 80%;
-  font-size: 20px;
+  font-size: 1.4em;
   text-align: center;
   color: dimgray;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
   font-family: 'Amatic SC', cursive;
   font-weight:bold;
 }
 
 #title {
-  padding-top: 50px;
-  font-size: 2em;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 2.2em;
   text-align: center;
   font-family: 'Kristi', cursive;
+}
+
+/* s. london page
+********************/
+
+/* header */
+#s-ldn-header {
+  margin-bottom: 50px;
 }
 
 /* restuarants */
@@ -149,8 +157,15 @@ h3.card-text {
 }
 
 .card-body-south_london {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin-top: 20px;
   margin-bottom: 50px;
   font-size: 1.2em;
+}
+
+/* form */
+
+.btn.btn-primary {
+  background-color: grey;
+  color: white;
 }
