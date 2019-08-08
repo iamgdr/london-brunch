@@ -26,11 +26,12 @@ TO DO INDEX.HTML PAGE:
 
 <!-- add social media links to bottom of page -  -->
 <!-- Grey out the dropdown pages that don't exist (only south London exist) -->
-add 2 models - Ellen
+add subscribe model
 <!-- create carousel with headers - Gabi - https://getbootstrap.com/docs/4.3/examples/carousel/ -->
 <!-- create links on carousel to 2nd page -->
 <!-- delete <br> once css created -->
 <!-- add nav bar code from bootstrap -->
+<!-- link south london map to south london page -->
 
 TO DO SOUTH_LONDON_PICKS.HTML PAGE:
 
@@ -38,4 +39,4 @@ TO DO SOUTH_LONDON_PICKS.HTML PAGE:
 <!-- link css file -->
 <!-- style per wireframe -->
 sort picture size
-align textarea
+align text area
