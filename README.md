@@ -5,7 +5,7 @@ Must have
 ● A live website published on GitHub pages
 <!-- ● A minimum of two HTML files for: -->
 <!-- ○ 1 x landing page (Index.HTML) linked to a separate CSS file -->
-○ 1 x ‘about’ page
+<!-- ○ 1 x ‘about’ page -->
 <!-- ● A minimum of one CSS file -->
 <!-- ● Good formatting -->
 <!-- ○ Code split into the appropriate files (separate HTML files & CSS files) -->
@@ -38,5 +38,5 @@ TO DO SOUTH_LONDON_PICKS.HTML PAGE:
 <!-- add bootstrap and javascript getting started codes -->
 <!-- link css file -->
 <!-- style per wireframe -->
-sort picture size
-align text area
+<!-- sort picture size -->
+<!-- align text area -->
