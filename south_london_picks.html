@@ -15,53 +15,46 @@
 
 <body>
 
-  <!-- nav bar from bootstrap -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="index.html">London Brunch</a>
-    <!--
-    <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-    <img src="/images/main_page_images/logo1.jpg" width="30" height="30" alt="">
-  </a>
-</nav>
--->
+<!-- nav bar from bootstrap -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="index.html">London Brunch</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
 
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="pretend_aboutus_page.html">About Us</a>
-    </li>
-    <li class="nav-item">
-      <!-- Dropdown for locations -->
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Locations
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <a class="dropdown-item" href="south_london_picks.html">South London</a>
-          <a class="dropdown-item not-working" href="#">East London</a>
-          <a class="dropdown-item not-working" href="#">North London</a>
-          <a class="dropdown-item not-working" href="#">Central London</a>
-          <a class="dropdown-item not-working" href="#">West London</a>
+        <!-- Dropdown for locations -->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Locations
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <a class="dropdown-item" href="south_london_picks.html">South London</a>
+            <a class="dropdown-item not-working" href="#">East London</a>
+            <a class="dropdown-item not-working" href="#">North London</a>
+            <a class="dropdown-item not-working" href="#">Central London</a>
+            <a class="dropdown-item not-working" href="#">West London</a>
+          </div>
         </div>
-      </div>
-    </li>
-  </ul>
+      </li>
+    </ul>
 
-  <!-- social button -->
-  <div class="social-buttons justify-content-end">
-    <a href="https://en-gb.facebook.com/" target="_blank" class="fa fa-facebook"></a>
-    <a href="https://twitter.com/?lang=en-gb" target="blank" class="fa fa-twitter"></a>
-    <a href="https://www.linkedin.com/" target="blank" class="fa fa-linkedin"></a>
-    <a href="https://www.instagram.com/" target="blank" class="fa fa-instagram"></a>
+    <!-- social button -->
+    <div class="social-buttons justify-content-end">
+      <a href="https://en-gb.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/?lang=en-gb" target="blank" class="fa fa-twitter"></a>
+      <a href="https://www.linkedin.com/" target="blank" class="fa fa-linkedin"></a>
+      <a href="https://www.instagram.com/" target="blank" class="fa fa-instagram"></a>
+    </div>
   </div>
-</div>
 </nav>
 
 <!-- Main body-->
@@ -93,9 +86,9 @@
   <div class="card col-sm text-center" style="width: 18rem;">
     <img src="images/South_London_brunch_images/maloko.jpg" class="card-img-top" alt="Maloko">
     <div class="card-body-south_london">
-      <h3 class="card-text"><a href="https://www.southlondonclub.co.uk/discount/camberwell/cafes/maloko" target="_blank">Maloko - Camberwell</a></h3>
-      <p>Details: Bottomless brunch? Y/N</p>
-      <p>Set Menu? Y/N</p>
+      <h3 class="card-text"><a href="https://www.facebook.com/mymaloko" target="_blank">Maloko - Camberwell</a></h3>
+      <p>Details: Bottomless brunch? No</p>
+      <p>Set Menu? No</p>
       <p>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm</p>
       <p>Address: 60 Camberwell Church St, Camberwell, London SE5 8TU</p>
       <p>Read the full <a href="#">review...</a></p>
@@ -105,14 +98,16 @@
     <img src="images/South_London_brunch_images/coal_rooms.jpg" class="card-img-top" alt="Coal Coal_Rooms">
     <div class="card-body-south_london">
       <h3 class="card-text"><a href="https://www.coalroomspeckham.com/" target="_blank">Coal Rooms - Peckham</a></h3>
-      <p>Details: Bottomless brunch? Y/N</p>
-      <p>Set Menu? Y/N</p>
+      <p>Details: Bottomless brunch? No</p>
+      <p>Set Menu? Yes</p>
       <p>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm</p>
       <p>Address: 11a Station Way, London SE15 4RX</p>
       <p>Read the full <a href="#">review...</a></p>
     </div>
   </div>
 </div>
+
+<!-- Form -->
 
 <div class="container">
   <h2>Send us your recommendations!</h2>
