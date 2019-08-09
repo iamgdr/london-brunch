@@ -107,15 +107,6 @@ body {
   font-family: 'Kristi', cursive;
 }
 
-#main {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  width: 100%;
-  height: 600px;
-  font-family: 'Kristi', cursive;
-}
-
 #intro {
   width: 80%;
   font-size: 1.4em;
