@@ -8,63 +8,70 @@
   <meta name="author" content="">
   <title>London Brunch | South London</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Beth+Ellen|Dancing+Script|Kristi|Lobster+Two|Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- nav bar from bootstrap -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Logo here</a>
-    <!-- Code to add an image - remove line above when we are ready-->
-    <!--
-    <nav class="navbar navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
-      </a>
-    </nav>
-    -->
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-            <!-- Dropdown for locations -->
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Locations
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-              <a class="dropdown-item" href="south_london_picks.html">South London</a>
-              <a class="dropdown-item" href="#">East London</a>
-              <a class="dropdown-item" href="#">North London</a>
-              <a class="dropdown-item" href="#">Central London</a>
-              <a class="dropdown-item" href="#">West London</a>
-  </div>
-</div>
-        </li>
-      </ul>
+<!-- nav bar from bootstrap -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="index.html">London Brunch</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+
+        <!-- Dropdown for locations -->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Locations
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <a class="dropdown-item" href="south_london_picks.html">South London</a>
+            <a class="dropdown-item not-working" href="#">East London</a>
+            <a class="dropdown-item not-working" href="#">North London</a>
+            <a class="dropdown-item not-working" href="#">Central London</a>
+            <a class="dropdown-item not-working" href="#">West London</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+    <!-- social button -->
+    <div class="social-buttons justify-content-end">
+      <a href="https://en-gb.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/?lang=en-gb" target="blank" class="fa fa-twitter"></a>
+      <a href="https://www.linkedin.com/" target="blank" class="fa fa-linkedin"></a>
+      <a href="https://www.instagram.com/" target="blank" class="fa fa-instagram"></a>
     </div>
-  </nav>
+  </div>
+</nav>
 
- <!-- Main body-->
+<!-- Main body-->
 
-
-<section>
-<img src="images/South_London_brunch_images/London_Buses_Clapham.jpg" class="img-fluid" alt="south london bus">
-<!--replace image with some form of interactive map?-->
-<br>
-<h2>South London</h2>
+<section id="s-ldn-header">
+  <div class="bd-example2">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="3000">
+          <img src="images/South_London_brunch_images/aerial_bridge.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>South London</h5>
+          </div>
+        </div>
 </section>
 
+<<<<<<< HEAD
 <section>
   <!-- columns -->
   <div class="row">
@@ -72,25 +79,48 @@
       <img src="images/South_London_brunch_images/blues_kitchen.jpg" alt=blueskitchen width=200px>
       <p>Blues Kitchen - Brixton<br>
       Details: Bottomless booze? Y/N<br>Set Menu? Y/N<br>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm<br>Address: xxxxx</p>
+=======
+<!-- restuarants -->
+<div class="row">
+  <div class="card col-sm text-center" style="width: 18rem;">
+    <img src="images/South_London_brunch_images/blues_kitchen.jpg" class="card-img-top" alt="Blues Kitchen">
+    <div class="card-body-south_london">
+      <h3 class="card-text"><a href="https://theblueskitchen.com/brixton/" target="_blank">Blues Kitchen - Brixton</a></h3>
+      <p>Details: Bottomless brunch? Yes</p>
+      <p>Set Menu? No</p>
+      <p>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm</p>  <p>Address: 40 Acre Ln, Brixton, London SW2 5SP</p>
+      <p>Read the full <a href="#">review...</a></p>
+>>>>>>> 7a7aa764b1f1823b3eca0f139183443aab70ae52
     </div>
+  </div>
+  <div class="card col-sm text-center" style="width: 18rem;">
+    <img src="images/South_London_brunch_images/maloko.jpg" class="card-img-top" alt="Maloko">
+    <div class="card-body-south_london">
+      <h3 class="card-text"><a href="https://www.facebook.com/mymaloko" target="_blank">Maloko - Camberwell</a></h3>
+      <p>Details: Bottomless brunch? No</p>
+      <p>Set Menu? No</p>
+      <p>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm</p>
+      <p>Address: 60 Camberwell Church St, Camberwell, London SE5 8TU</p>
+      <p>Read the full <a href="#">review...</a></p>
+    </div>
+  </div>
+  <div class="card col-sm text-center" style="width: 18rem;">
+    <img src="images/South_London_brunch_images/coal_rooms.jpg" class="card-img-top" alt="Coal Coal_Rooms">
+    <div class="card-body-south_london">
+      <h3 class="card-text"><a href="https://www.coalroomspeckham.com/" target="_blank">Coal Rooms - Peckham</a></h3>
+      <p>Details: Bottomless brunch? No</p>
+      <p>Set Menu? Yes</p>
+      <p>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm</p>
+      <p>Address: 11a Station Way, London SE15 4RX</p>
+      <p>Read the full <a href="#">review...</a></p>
+    </div>
+  </div>
+</div>
 
-      <div class="col-sm">
-        <img src="images/South_London_brunch_images/Maloko.jpg" alt= Maloko width=200px>
-        <p>Maloko - Camberwell <br>
-        Details: Bottomless booze? Y/N<br>Set Menu? Y/N<br>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm<br>Address: xxxxx
-      </p>
-      </div>
+<!-- Form -->
 
-      <div class="col-sm">
-        <img src="images/South_London_brunch_images/Coal_Rooms.jpg" alt=Coal_Rooms width=200px>
-        <p>Coal Rooms - Peckham <br>
-        Details: Bottomless booze? Y/N<br>Set Menu? Y/N<br>Timings: Saturdays 10am - 3pm, Sundays: 10am - 1pm<br>Address: xxxxx</p>
-      </div>
-
-<br>
-<br>
 <div class="container">
-<h2>Send us your recommendation!</h2>
+  <h2>Send us your recommendations!</h2>
   <form>
     <div class="form-group">
       <label for="exampleFormControlInput2">Your name</label>
@@ -103,20 +133,24 @@
     <div class="form-group
     <label for="exampleFormControlSelect1">Your area</label>
     <select class=form-control" id="exampleFormControlSelect1">
-    <option>South London</option>
-    <option>East London</option>
-    <option>North London</option>
-    <option>Central London</option>
-    <option>West London</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="FreeText">Your recommendation</label>
-      <textarea class="form-control" id="FreeText" rows="4"></textarea>
-    </div>
-    <button type="Submit" class="btn btn-primary">Submit</button>
-  </form>
+      <option>South London</option>
+      <option>East London</option>
+      <option>North London</option>
+      <option>Central London</option>
+      <option>West London</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="FreeText">Your recommendation</label>
+    <textarea class="form-control" id="FreeText" rows="4"></textarea>
+  </div>
+  <button type="Submit" class="btn btn-primary">Submit</button>
+</form>
 
+<!-- Javascript code -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>
