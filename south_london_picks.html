@@ -9,66 +9,67 @@
   <title>London Brunch | South London</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Beth+Ellen|Dancing+Script|Kristi|Lobster+Two|Pacifico&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/styles.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- nav bar from bootstrap -->
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="index.html">London Brunch</a>
-    <!-- Code to add an image - remove line above when we are ready-->
-<!--
-    <nav class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-    <img src="/images/main_page_images/logo1.jpg" width="30" height="30" alt="">
-  </a>
-</nav>
--->
+<!-- nav bar from bootstrap -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="index.html">London Brunch</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
 
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="pretend_aboutus_page.html">About Us</a>
-    </li>
-    <li class="nav-item">
-      <!-- Dropdown for locations -->
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Locations
-        </button>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-          <a class="dropdown-item" href="south_london_picks.html">South London</a>
-          <a class="dropdown-item not-working" href="#">East London</a>
-          <a class="dropdown-item not-working" href="#">North London</a>
-          <a class="dropdown-item not-working" href="#">Central London</a>
-          <a class="dropdown-item not-working" href="#">West London</a>
+        <!-- Dropdown for locations -->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Locations
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <a class="dropdown-item" href="south_london_picks.html">South London</a>
+            <a class="dropdown-item not-working" href="#">East London</a>
+            <a class="dropdown-item not-working" href="#">North London</a>
+            <a class="dropdown-item not-working" href="#">Central London</a>
+            <a class="dropdown-item not-working" href="#">West London</a>
+          </div>
         </div>
-      </div>
-    </li>
-  </ul>
-</div>
+      </li>
+    </ul>
+
+    <!-- social button -->
+    <div class="social-buttons justify-content-end">
+      <a href="https://en-gb.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/?lang=en-gb" target="blank" class="fa fa-twitter"></a>
+      <a href="https://www.linkedin.com/" target="blank" class="fa fa-linkedin"></a>
+      <a href="https://www.instagram.com/" target="blank" class="fa fa-instagram"></a>
+    </div>
+  </div>
 </nav>
 
- <!-- Main body-->
+<!-- Main body-->
 
-<section>
- <div class="bd-example2">
-   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-     <div class="carousel-inner">
-       <div class="carousel-item active" data-interval="3000">
-         <img src="images/South_London_brunch_images/aerial_bridge.jpg" class="d-block w-100" alt="...">
-         <div class="carousel-caption d-none d-md-block">
-           <h5>South London</h5>
-         </div>
-       </div>
+<section id="s-ldn-header">
+  <div class="bd-example2">
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="3000">
+          <img src="images/South_London_brunch_images/aerial_bridge.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>South London</h5>
+          </div>
+        </div>
+</section>
 
  </section>
 <br>
@@ -178,7 +179,7 @@
 <br>
 
 <div class="container">
-<h2>Send us your recommendation!</h2>
+  <h2>Send us your recommendations!</h2>
   <form>
     <div class="form-group">
       <label for="exampleFormControlInput2">Your name</label>
@@ -191,20 +192,24 @@
     <div class="form-group
     <label for="exampleFormControlSelect1">Your area</label>
     <select class=form-control" id="exampleFormControlSelect1">
-    <option>South London</option>
-    <option>East London</option>
-    <option>North London</option>
-    <option>Central London</option>
-    <option>West London</option>
-      </select>
-    </div>
-    <div class="form-group">
-      <label for="FreeText">Your recommendation</label>
-      <textarea class="form-control" id="FreeText" rows="4"></textarea>
-    </div>
-    <button type="Submit" class="btn btn-primary">Submit</button>
-  </form>
+      <option>South London</option>
+      <option>East London</option>
+      <option>North London</option>
+      <option>Central London</option>
+      <option>West London</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="FreeText">Your recommendation</label>
+    <textarea class="form-control" id="FreeText" rows="4"></textarea>
+  </div>
+  <button type="Submit" class="btn btn-primary">Submit</button>
+</form>
 
+<!-- Javascript code -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>

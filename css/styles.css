@@ -1,17 +1,17 @@
 /* universal formatting */
 body {
   color: grey;
-
   width: 90%;
   margin: 0 auto;
   padding: 40px;
   background-color: 'aliceblue';
   font-family: 'Amatic SC', cursive;
-
-
 }
 
-/* Formatting for Navbar button*/
+/* main page
+********************/
+
+/* Navbar button*/
 .btn {
   color: white;
   border: 0px;
@@ -40,7 +40,6 @@ body {
   font-size:3em;
 }
 
-
 .dropdown-item{
   font-family: 'Kristi', cursive;
   font-size:2em;
@@ -50,16 +49,47 @@ body {
   color: silver;
 }
 
+/* social buttons */
 
-  /* Carousel formatting */
+.fa {
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  /* border: solid white 1px; */
+}
 
+.fa:hover {
+  color: white;
+}
+
+.fa-facebook {
+  background: none;
+  color: #3B5998;
+}
+
+.fa-twitter {
+  background: none;
+  color: #55ACEE;
+}
+
+.fa-instagram {
+  background: none;
+  color: #D6134E;
+}
+
+.fa-linkedin {
+  background: none;
+  color: white;
+}
+
+/* Carousel formatting */
 .carousel-caption.d-none.d-md-block {
   color: pink;
   font-size: 35px;
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
   text-align: center;
-
 }
 
 .carousel-caption {
@@ -77,33 +107,61 @@ body {
   justify-content: center;
 }
 
-/* main image & intro formatting */
-.h1{
-  font-family: 'Kristi', cursive;  }
-
-#main {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  width: 100%;
-  height: 600px;
-
-  font-family: 'Kristi', cursive;}
-
+/* main page & intro formatting */
+.h1 {
+  font-family: 'Kristi', cursive;
+}
 
 #intro {
   width: 80%;
-  font-size: 22px;
+  font-size: 1.4em;
   text-align: center;
   color: dimgray;
   margin: 0 auto;
-  padding: 10px;
-
+  padding: 20px;
   font-family: 'Amatic SC', cursive;
   font-weight:bold;
+}
 
 #title {
-  padding-top: 50px;
-  font-size: 2em;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 2.2em;
   text-align: center;
-  font-family: 'Kristi', cursive;}
+  font-family: 'Kristi', cursive;
+}
+
+/* s. london page
+********************/
+
+/* header */
+#s-ldn-header {
+  margin-bottom: 50px;
+}
+
+/* restuarants */
+a {
+    color: darkcyan;
+  }
+
+a:hover {
+  color: pink;
+}
+
+h3.card-text {
+  font-size: 2em;
+}
+
+.card-body-south_london {
+  /* border: 1px solid black; */
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 1.2em;
+}
+
+/* form */
+
+.btn.btn-primary {
+  background-color: grey;
+  color: white;
+}
