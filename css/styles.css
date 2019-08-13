@@ -57,6 +57,16 @@ a:hover {
   color: silver;
 }
 
+.btn-secondary:hover {
+  color: rgba(255,255,255,.75);
+  background-color: darkcyan;
+}
+
+.nav-link:hover {
+  color: rgba(255,255,255,.75);
+  background-color: darkcyan;
+}
+
 /* social buttons */
 
 .fa {
