@@ -156,6 +156,18 @@ h3.card-text {
   /* border: 1px solid black; */
   margin-top: 20px;
   margin-bottom: 50px;
+  font-size: 2em;
+}
+
+.card-title {
+  font-size: 1.5em;
+}
+
+.card-body {
+  font-size: 1.2em;
+}
+
+.list-group-item {
   font-size: 1.2em;
 }
 
