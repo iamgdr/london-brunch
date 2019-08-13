@@ -149,20 +149,10 @@ a:hover {
   margin-bottom: 50px;
 }
 
-/* restuarants */
-/* h3.card-text {
-  font-size: 2em;
-} */
+/* locations */
 
-.card-body-south_london {
-  /* border: 1px solid black; */
-  margin-top: 20px;
-  margin-bottom: 50px;
-  font-size: 1.2em;
-}
 
 /* form */
-
 .btn.btn-primary {
   background-color: grey;
   color: white;
