@@ -60,10 +60,13 @@ a:hover {
 /* social buttons */
 
 .fa {
-  font-size: 20px;
-  width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 22px;
+  width: 40px;
   text-align: center;
   text-decoration: none;
+  border-radius: 50%;
   /* border: solid white 1px; */
 }
 
@@ -89,7 +92,7 @@ a:hover {
 
 .fa-linkedin {
   background: none;
-  color: white;
+  color: #007bb5;
 }
 
 /* Carousel formatting */
