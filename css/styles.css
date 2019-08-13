@@ -8,6 +8,14 @@ body {
   font-family: 'Amatic SC', cursive;
 }
 
+a {
+  color: darkcyan;
+}
+
+a:hover {
+  color: pink;
+}
+
 /* main page
 ********************/
 
@@ -52,15 +60,19 @@ body {
 /* social buttons */
 
 .fa {
-  font-size: 20px;
-  width: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 22px;
+  width: 40px;
   text-align: center;
   text-decoration: none;
+  border-radius: 50%;
   /* border: solid white 1px; */
 }
 
 .fa:hover {
   color: white;
+  text-decoration: none;
 }
 
 .fa-facebook {
@@ -80,7 +92,7 @@ body {
 
 .fa-linkedin {
   background: none;
-  color: white;
+  color: #007bb5;
 }
 
 /* Carousel formatting */
@@ -108,7 +120,7 @@ body {
 }
 
 /* main page & intro formatting */
-.h1 {
+.h2 {
   font-family: 'Kristi', cursive;
 }
 
@@ -126,10 +138,11 @@ body {
 #title {
   padding-top: 30px;
   padding-bottom: 10px;
-  font-size: 2.2em;
+  font-size: 2.3em;
   text-align: center;
   font-family: 'Kristi', cursive;
 }
+
 
 /* s. london page
 ********************/
@@ -172,7 +185,6 @@ h3.card-text {
 }
 
 /* form */
-
 .btn.btn-primary {
   background-color: grey;
   color: white;
